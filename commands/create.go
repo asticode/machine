@@ -14,19 +14,19 @@ import (
 
 	"time"
 
+	"github.com/asticode/machine/commands/mcndirs"
+	"github.com/asticode/machine/libmachine"
+	"github.com/asticode/machine/libmachine/auth"
+	"github.com/asticode/machine/libmachine/crashreport"
+	"github.com/asticode/machine/libmachine/drivers"
+	rpcdriver "github.com/asticode/machine/libmachine/drivers/rpc"
+	"github.com/asticode/machine/libmachine/engine"
+	"github.com/asticode/machine/libmachine/host"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/mcnerror"
+	"github.com/asticode/machine/libmachine/mcnflag"
+	"github.com/asticode/machine/libmachine/swarm"
 	"github.com/codegangsta/cli"
-	"github.com/docker/machine/commands/mcndirs"
-	"github.com/docker/machine/libmachine"
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/crashreport"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/drivers/rpc"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/host"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnerror"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/swarm"
 )
 
 var (

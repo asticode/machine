@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/version"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/mcnutils"
+	"github.com/asticode/machine/libmachine/version"
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/openstack"
 	compute_ips "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/floatingip"

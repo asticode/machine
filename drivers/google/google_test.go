@@ -3,7 +3,7 @@ package google
 import (
 	"testing"
 
-	"github.com/docker/machine/libmachine/drivers"
+	"github.com/asticode/machine/libmachine/drivers"
 	"github.com/stretchr/testify/assert"
 )
 

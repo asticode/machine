@@ -10,7 +10,7 @@ import (
 
 	"runtime"
 
-	"github.com/docker/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/log"
 )
 
 const (

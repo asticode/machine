@@ -7,28 +7,28 @@ import (
 
 	"path/filepath"
 
+	"github.com/asticode/machine/commands"
+	"github.com/asticode/machine/commands/mcndirs"
+	"github.com/asticode/machine/drivers/amazonec2"
+	"github.com/asticode/machine/drivers/azure"
+	"github.com/asticode/machine/drivers/digitalocean"
+	"github.com/asticode/machine/drivers/exoscale"
+	"github.com/asticode/machine/drivers/generic"
+	"github.com/asticode/machine/drivers/google"
+	"github.com/asticode/machine/drivers/hyperv"
+	"github.com/asticode/machine/drivers/none"
+	"github.com/asticode/machine/drivers/openstack"
+	"github.com/asticode/machine/drivers/rackspace"
+	"github.com/asticode/machine/drivers/softlayer"
+	"github.com/asticode/machine/drivers/virtualbox"
+	"github.com/asticode/machine/drivers/vmwarefusion"
+	"github.com/asticode/machine/drivers/vmwarevcloudair"
+	"github.com/asticode/machine/drivers/vmwarevsphere"
+	"github.com/asticode/machine/libmachine/drivers/plugin"
+	"github.com/asticode/machine/libmachine/drivers/plugin/localbinary"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/version"
 	"github.com/codegangsta/cli"
-	"github.com/docker/machine/commands"
-	"github.com/docker/machine/commands/mcndirs"
-	"github.com/docker/machine/drivers/amazonec2"
-	"github.com/docker/machine/drivers/azure"
-	"github.com/docker/machine/drivers/digitalocean"
-	"github.com/docker/machine/drivers/exoscale"
-	"github.com/docker/machine/drivers/generic"
-	"github.com/docker/machine/drivers/google"
-	"github.com/docker/machine/drivers/hyperv"
-	"github.com/docker/machine/drivers/none"
-	"github.com/docker/machine/drivers/openstack"
-	"github.com/docker/machine/drivers/rackspace"
-	"github.com/docker/machine/drivers/softlayer"
-	"github.com/docker/machine/drivers/virtualbox"
-	"github.com/docker/machine/drivers/vmwarefusion"
-	"github.com/docker/machine/drivers/vmwarevcloudair"
-	"github.com/docker/machine/drivers/vmwarevsphere"
-	"github.com/docker/machine/libmachine/drivers/plugin"
-	"github.com/docker/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/version"
 )
 
 var AppHelpTemplate = `Usage: {{.Name}} {{if .Flags}}[OPTIONS] {{end}}COMMAND [arg...]
@@ -97,7 +97,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = filepath.Base(os.Args[0])
 	app.Author = "Docker Machine Contributors"
-	app.Email = "https://github.com/docker/machine"
+	app.Email = "https://github.com/asticode/machine"
 
 	app.Commands = commands.Commands
 	app.CommandNotFound = cmdNotFound

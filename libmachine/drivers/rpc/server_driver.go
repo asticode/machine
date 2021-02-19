@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/state"
-	"github.com/docker/machine/libmachine/version"
+	"github.com/asticode/machine/libmachine/drivers"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/mcnflag"
+	"github.com/asticode/machine/libmachine/state"
+	"github.com/asticode/machine/libmachine/version"
 )
 
 type Stacker interface {

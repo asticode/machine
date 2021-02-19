@@ -11,7 +11,7 @@ provisioning**.
 
 (Note: this document is a high-level overview of where we are taking Machine.
 For what is coming in specific releases, see our [upcoming
-milestones](https://github.com/docker/machine/milestones).)
+milestones](https://github.com/asticode/machine/milestones).)
 
 ### Docker Engine / Swarm Configuration
 
@@ -31,4 +31,4 @@ Currently, the Machine on Windows experience is not as good as the Mac / Linux. 
 
 # Project Planning
 
-An [Open-Source Planning Process](https://github.com/docker/machine/wiki/Open-Source-Planning-Process) is used to define the Roadmap. [Project Pages](https://github.com/docker/machine/wiki) define the goals for each Milestone and identify current progress.
+An [Open-Source Planning Process](https://github.com/asticode/machine/wiki/Open-Source-Planning-Process) is used to define the Roadmap. [Project Pages](https://github.com/asticode/machine/wiki) define the goals for each Milestone and identify current progress.

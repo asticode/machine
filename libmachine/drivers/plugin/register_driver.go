@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/docker/machine/libmachine/drivers/rpc"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/version"
+	"github.com/asticode/machine/libmachine/drivers"
+	"github.com/asticode/machine/libmachine/drivers/plugin/localbinary"
+	"github.com/asticode/machine/libmachine/drivers/rpc"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/version"
 )
 
 var (

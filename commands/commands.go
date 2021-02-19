@@ -6,16 +6,16 @@ import (
 	"os"
 	"strings"
 
+	"github.com/asticode/machine/commands/mcndirs"
+	"github.com/asticode/machine/libmachine"
+	"github.com/asticode/machine/libmachine/crashreport"
+	"github.com/asticode/machine/libmachine/host"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/mcnerror"
+	"github.com/asticode/machine/libmachine/mcnutils"
+	"github.com/asticode/machine/libmachine/persist"
+	"github.com/asticode/machine/libmachine/ssh"
 	"github.com/codegangsta/cli"
-	"github.com/docker/machine/commands/mcndirs"
-	"github.com/docker/machine/libmachine"
-	"github.com/docker/machine/libmachine/crashreport"
-	"github.com/docker/machine/libmachine/host"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnerror"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/persist"
-	"github.com/docker/machine/libmachine/ssh"
 )
 
 const (

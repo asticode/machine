@@ -45,7 +45,7 @@ Refer to the [CHANGELOG](CHANGELOG.md) for version to version changes.
 
 ## Projects using govmomi
 
-* [Docker Machine](https://github.com/docker/machine/tree/master/drivers/vmwarevsphere)
+* [Docker Machine](https://github.com/asticode/machine/tree/master/drivers/vmwarevsphere)
 
 * [Terraform](https://github.com/hashicorp/terraform/tree/master/builtin/providers/vsphere)
 

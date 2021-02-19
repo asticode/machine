@@ -1,7 +1,7 @@
 package persist
 
 import (
-	"github.com/docker/machine/libmachine/host"
+	"github.com/asticode/machine/libmachine/host"
 )
 
 type Store interface {

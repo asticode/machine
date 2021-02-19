@@ -13,12 +13,12 @@ import (
 
 	"github.com/vmware/govcloudair"
 
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/ssh"
-	"github.com/docker/machine/libmachine/state"
+	"github.com/asticode/machine/libmachine/drivers"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/mcnflag"
+	"github.com/asticode/machine/libmachine/mcnutils"
+	"github.com/asticode/machine/libmachine/ssh"
+	"github.com/asticode/machine/libmachine/state"
 )
 
 type Driver struct {

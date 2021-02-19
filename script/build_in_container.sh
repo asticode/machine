@@ -30,4 +30,4 @@ if [[ "$@" == *"clean"* ]] && [[ -d bin ]]; then
   rm -Rf bin
 fi
 
-docker cp $DOCKER_CONTAINER_NAME:/go/src/github.com/docker/machine/bin .
+docker cp $DOCKER_CONTAINER_NAME:/go/src/github.com/asticode/machine/bin .

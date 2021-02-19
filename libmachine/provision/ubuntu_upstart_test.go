@@ -3,11 +3,11 @@ package provision
 import (
 	"testing"
 
-	"github.com/docker/machine/drivers/fakedriver"
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/provision/provisiontest"
-	"github.com/docker/machine/libmachine/swarm"
+	"github.com/asticode/machine/drivers/fakedriver"
+	"github.com/asticode/machine/libmachine/auth"
+	"github.com/asticode/machine/libmachine/engine"
+	"github.com/asticode/machine/libmachine/provision/provisiontest"
+	"github.com/asticode/machine/libmachine/swarm"
 )
 
 func TestUbuntuCompatibleWithHost(t *testing.T) {

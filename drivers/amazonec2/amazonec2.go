@@ -14,17 +14,17 @@ import (
 	"strings"
 	"time"
 
+	"github.com/asticode/machine/drivers/driverutil"
+	"github.com/asticode/machine/libmachine/drivers"
+	"github.com/asticode/machine/libmachine/log"
+	"github.com/asticode/machine/libmachine/mcnflag"
+	"github.com/asticode/machine/libmachine/mcnutils"
+	"github.com/asticode/machine/libmachine/ssh"
+	"github.com/asticode/machine/libmachine/state"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/docker/machine/drivers/driverutil"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/ssh"
-	"github.com/docker/machine/libmachine/state"
 )
 
 const (

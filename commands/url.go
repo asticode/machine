@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/docker/machine/libmachine"
+	"github.com/asticode/machine/libmachine"
 )
 
 func cmdURL(c CommandLine, api libmachine.API) error {

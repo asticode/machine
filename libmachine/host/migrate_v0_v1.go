@@ -1,9 +1,9 @@
 package host
 
 import (
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/swarm"
+	"github.com/asticode/machine/libmachine/auth"
+	"github.com/asticode/machine/libmachine/engine"
+	"github.com/asticode/machine/libmachine/swarm"
 )
 
 // In the 0.1.0 => 0.2.0 transition, the JSON representation of

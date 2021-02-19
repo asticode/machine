@@ -5,8 +5,8 @@ import (
 
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/docker/machine/drivers/azure/logutil"
-	"github.com/docker/machine/libmachine/log"
+	"github.com/asticode/machine/drivers/azure/logutil"
+	"github.com/asticode/machine/libmachine/log"
 )
 
 func withInspection() autorest.PrepareDecorator {

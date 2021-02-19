@@ -8,12 +8,12 @@ import (
 
 	"errors"
 
-	"github.com/docker/machine/drivers/fakedriver"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/host"
-	"github.com/docker/machine/libmachine/mcndockerclient"
-	"github.com/docker/machine/libmachine/state"
-	"github.com/docker/machine/libmachine/swarm"
+	"github.com/asticode/machine/drivers/fakedriver"
+	"github.com/asticode/machine/libmachine/engine"
+	"github.com/asticode/machine/libmachine/host"
+	"github.com/asticode/machine/libmachine/mcndockerclient"
+	"github.com/asticode/machine/libmachine/state"
+	"github.com/asticode/machine/libmachine/swarm"
 	"github.com/stretchr/testify/assert"
 )
 

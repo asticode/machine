@@ -25,6 +25,6 @@ test:
     - gvm use stable && go get github.com/docker/docker-machine-driver-ci-test
 
   override:
-    - gvm use stable && PATH=../../../../bin:$PATH DRIVER=ci-test go test -v github.com/docker/machine/its/...:
+    - gvm use stable && PATH=../../../../bin:$PATH DRIVER=ci-test go test -v github.com/asticode/machine/its/...:
         pwd: $BASE_STABLE
         timeout: 600

@@ -1,6 +1,6 @@
 # Contributing to machine
 
-[![GoDoc](https://godoc.org/github.com/docker/machine?status.png)](https://godoc.org/github.com/docker/machine)
+[![GoDoc](https://godoc.org/github.com/asticode/machine?status.png)](https://godoc.org/github.com/asticode/machine)
 [![Build Status](https://travis-ci.org/docker/machine.svg?branch=master)](https://travis-ci.org/docker/machine)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/docker/machine?svg=true)](https://ci.appveyor.com/project/dmp42/machine-fp5u5)
 [![Coverage Status](https://coveralls.io/repos/docker/machine/badge.svg?branch=master&service=github)](https://coveralls.io/github/docker/machine?branch=master)
@@ -38,8 +38,8 @@ Example of cloning and preparing the correct environment `GOPATH`:
     $ mkdir docker-machine
     $ cd docker-machine
     $ export GOPATH="$PWD"
-    $ go get github.com/docker/machine
-    $ cd src/github.com/docker/machine
+    $ go get github.com/asticode/machine
+    $ cd src/github.com/asticode/machine
 
 If you want to use your existing workspace, make sure your `GOPATH` is set to
 the directory that contains your `src` directory, e.g.:

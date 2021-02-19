@@ -62,7 +62,7 @@ Full documentation [is available here](https://docs.docker.com/machine/).
 
 ## Contributing
 
-Want to hack on Machine? Please start with the [Contributing Guide](https://github.com/docker/machine/blob/master/CONTRIBUTING.md).
+Want to hack on Machine? Please start with the [Contributing Guide](https://github.com/asticode/machine/blob/master/CONTRIBUTING.md).
 
 ## Driver Plugins
 
@@ -92,7 +92,7 @@ networking.  Consider the following:
 
 -   Are you using a VPN?  If so, try disconnecting and see if creation will
     succeed without the VPN.  Some VPN software aggressively controls routes and
-    you may need to [manually add the route](https://github.com/docker/machine/issues/1500#issuecomment-121134958).
+    you may need to [manually add the route](https://github.com/asticode/machine/issues/1500#issuecomment-121134958).
 -   Are you connected to a proxy server, corporate or otherwise?  If so, take a
     look at the `--no-proxy` flag for `env` and at [setting environment variables
     for the created Docker Engine](https://docs.docker.com/machine/reference/create/#specifying-configuration-options-for-the-created-docker-engine).
@@ -109,7 +109,7 @@ workarounds, and desired workflows as you discover them.
 
 If you see messages such as "exit status 1" creating machines with VirtualBox,
 this frequently indicates that there is an issue with VirtualBox itself.  Please
-[file an issue](https://github.com/docker/machine/issues/new) and include a link
+[file an issue](https://github.com/asticode/machine/issues/new) and include a link
 to a [Github Gist](https://gist.github.com/) with the output of the VirtualBox
 log (usually located at
 `$HOME/.docker/machine/machines/machinename/machinename/Logs/VBox.log`), as well
@@ -119,7 +119,7 @@ of VirtualBox are failing where, and under which conditions.
 
 If you see messages such as "exit status 255", this frequently indicates there
 has been an issue with SSH.  Please investigate your SSH configuration if you
-have one, and/or [file an issue](https://github.com/docker/machine/issues).
+have one, and/or [file an issue](https://github.com/asticode/machine/issues).
 
 #### "You may be getting rate limited by Github" error message
 
