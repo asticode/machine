@@ -18,5 +18,5 @@ type Options struct {
 	TLSVerify         bool `json:"TlsVerify"`
 	RegistryMirror    []string
 	InstallURL        string
-	SkipProvisionning bool
+	SkipDebianInstall bool
 }

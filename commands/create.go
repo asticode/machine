@@ -78,8 +78,8 @@ var (
 			Value: &cli.StringSlice{},
 		},
 		cli.BoolFlag{
-			Name:  "engine-skip-provisionning",
-			Usage: "Skip provisionning",
+			Name:  "engine-skip-debian-install",
+			Usage: "Skip installing sudo, packages and docker when provisionning debian",
 		},
 		cli.BoolFlag{
 			Name:  "swarm",
@@ -193,7 +193,7 @@ func cmdCreateInner(c CommandLine, api libmachine.API) error {
 			StorageDriver:     c.String("engine-storage-driver"),
 			TLSVerify:         true,
 			InstallURL:        c.String("engine-install-url"),
-			SkipProvisionning: c.Bool("engine-skip-provisionning"),
+			SkipDebianInstall: c.Bool("engine-skip-debian-install"),
 		},
 		SwarmOptions: &swarm.Options{
 			IsSwarm:            c.Bool("swarm") || c.Bool("swarm-master"),
